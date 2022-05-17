@@ -14,7 +14,6 @@ const cart = () => {
     cartBtn.addEventListener('click', openCart)
     cartCloseBtn.addEventListener('click', closeCart)
 
-    console.log(cartModal);
 }
 
 export default cart
