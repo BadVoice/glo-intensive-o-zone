@@ -17,4 +17,4 @@ const cart = () => {
     console.log(cartModal);
 }
 
-cart()
+export default cart
