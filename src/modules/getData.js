@@ -1,5 +1,5 @@
-    const getData = () => {
-        return fetch('https://cartozone-b17dc-default-rtdb.firebaseio.com/goods.json')
+    const getData = (str) => {
+        return fetch(`https://cartozone-b17dc-default-rtdb.firebaseio.com/goods.json`)
             .then((response) => {
                 return response.json()
             })
